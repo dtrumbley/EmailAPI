@@ -1,0 +1,16 @@
+node_modules/
+#listing .env files individually to allow for .env.template in repos
+.env.development
+.env.staging
+.env.production
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
